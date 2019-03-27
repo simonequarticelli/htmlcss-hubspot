@@ -455,3 +455,39 @@ ul .check::before{
 .item p{
   color:white;
 }
+
+.fourth{
+  width: 75%;
+  margin: 0 auto;
+  display: table;
+  content: "";
+  clear: both;
+  margin-top: 100px;
+  margin-bottom:100px;
+}
+
+.text{
+  float: left;
+  width: 250px;
+  padding: 20px;
+  height: 150px;
+  margin-right: 100px;
+}
+
+.text h2{
+  font-size: 40px;
+}
+
+.text p{
+  font-size: 20px;
+}
+
+.logo ul li{
+  display: inline-block;
+}
+
+.logo ul li img{
+  width: 140px;
+  height: 60px;
+  padding:20px;
+}
