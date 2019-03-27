@@ -12,6 +12,8 @@
   clear: both;
   content: "";
   display: table;
+
+  z-index: 1;
 }
 
 .contenuto_nav{
@@ -111,7 +113,6 @@ a:hover{
   font-size: 20px;
   padding:5px;
   color:white !important;
-
 }
 
 .first{
@@ -474,8 +475,8 @@ ul .check::before{
   display: table;
   content: "";
   clear: both;
-  margin-top: 100px;
-  margin-bottom:250px;
+  margin-top: 150px;
+  margin-bottom:180px;
 }
 
 .text{
@@ -511,7 +512,6 @@ ul .check::before{
   content:"";
   display: table;
   clear: both;
-  border: 1px solid red;
 }
 
 .five a{
@@ -556,12 +556,6 @@ margin: 20px 0px;
   height: 400px;
 }
 
- chiedere a fra
-#img_section_five img::before{
-  content: "url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circlesHorizontalPink.svg)";
-  position: absolute;
-}
-
 footer{
   background-color: #33475b;
   content:"";
@@ -573,7 +567,7 @@ footer{
 }
 
 .content_footer{
-  width: 80%;
+  width: 85%;
   margin:0 auto;
   margin-top: 80px;
 }
@@ -582,9 +576,43 @@ footer{
   list-style-type: none;
 }
 
-.col_1{
+.content_footer a{
+  display: block;
+  color: #cbd6e2;
+  margin-top:20px;
+  text-decoration: none;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4{
   float: left;
   width: 25%;
+}
+
+.col_4 i{
+  color:#7c98b6;
+  font-size: 20px;
+  padding:5px;
+}
+
+#a_second{
+background-color: white;
+color: black;
+border-radius: 5px;
+text-decoration: none;
+padding: 10px 10px;
+display: inline-block;
+}
+
+.icon i{
+  padding: 7px;
+  margin-top: 5px;
+}
+
+.lingue li{
+  margin: 50px 0px;
 }
 
 .icon li{
@@ -597,6 +625,8 @@ footer{
 
 .lingue li{
   display: inline-block;
+  margin-right: 40px;
+  font-size: 17px;
 }
 
 .logo_footer{
@@ -606,4 +636,33 @@ footer{
 .privacy li{
   display: inline-block;
   float: right;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.logo_footer p{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.content_footer a:hover{
+  color: #7fd1de;
+}
+
+.lingue li:hover{
+  color: #7fd1de;
+}
+
+#special{
+  padding-top: 10px;
+  color: #cbd6e2;
+}
+
+.icon i:hover{
+  color: #7fd1de;
+}
+
+.privacy li:hover{
+  color: #7fd1de;
 }
